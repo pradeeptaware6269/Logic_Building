@@ -1,0 +1,14 @@
+package Day2Task;
+
+import java.util.Scanner;
+// For the Duck Number 
+public class Task3_Duck_Number {
+	public static void main(String[] args) {
+		int num;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number ");
+		num=sc.nextInt();
+		while(num)
+	}
+
+}

@@ -1,0 +1,28 @@
+package Day1Task;
+
+import java.util.Scanner;
+
+// Task no 1 convert the decimal number to the binary number 
+public class Task1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Here we are converting the Decimal To Binary Number ");
+		System.out.println("Enter the value of  Number :");
+		int num = 10;
+		
+		
+		
+		int coef=num%10;
+		
+		System.out.println(coef);
+		
+		int rem=num/10;
+		System.out.println(rem);
+		
+		
+		int digit = num-(num=num % 2)*2;
+		System.out.println(digit);
+
+	}
+
+}

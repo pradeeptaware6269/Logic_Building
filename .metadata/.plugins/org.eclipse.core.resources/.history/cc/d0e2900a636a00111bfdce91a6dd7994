@@ -1,0 +1,21 @@
+package Day2Task;
+
+import java.util.Scanner;
+
+public class Task5_Octal_To_Deciimal {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the octal Number Here :");
+		int num = sc.nextInt();
+		int cal = 0, count = 0, temp;
+		while (num > 0) {
+			temp = num % 10;
+			cal = (int) (cal + Math.pow(temp, count) * temp);
+			num = num / 10;
+			count++;
+
+		}
+
+	}
+
+}

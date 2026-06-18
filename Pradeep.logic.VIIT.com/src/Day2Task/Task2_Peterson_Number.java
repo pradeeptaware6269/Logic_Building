@@ -1,0 +1,35 @@
+package Day2Task;
+
+import java.util.Scanner;
+
+public class Task2_Peterson_Number {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int digit, i = 1, total = 0, temp = 0;
+		System.out.println("Enter the User Number :");
+		int num = sc.nextInt();
+
+		temp = num; // dummy value
+
+		while (num > 0) {
+			int fact = 1;
+			digit = num % 10;
+
+			for (i = 1; i <= digit; i++) {
+				fact = fact * i;
+			}
+
+			total = total + fact;
+			num = num / 10;
+
+		}
+		if (temp == total) {
+			System.out.println("The given number is Peterson Number ");
+		} else {
+			System.out.println("The Given number is Not Peterson Number ");
+		}
+
+	}
+
+}

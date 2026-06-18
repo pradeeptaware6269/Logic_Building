@@ -1,0 +1,24 @@
+package Day2Task;
+
+import java.util.Scanner;
+
+public class Task5_Octal_To_Deciimal {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the octal Number Here :");
+		int num = sc.nextInt();
+		int num1 = num;
+		int cal = 0, count = 0, temp;
+		while (num > 0) {
+			temp = num % 10;
+			cal = (int) (cal + Math.pow(8, count) * temp);
+			num = num / 10;
+			count++;
+
+		}
+		System.out.println("Here we are converting the octal Number to the Decimal Number :");
+		System.out.println("The Original Octal Number is :" + num1);
+		System.out.println("After Concverting Decimal Number :" + cal);
+	}
+
+}

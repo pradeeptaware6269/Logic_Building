@@ -1,0 +1,11 @@
+package Day2Task;
+
+import java.util.Scanner;
+
+public class Task3_Duck_Number {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+	}
+
+}
