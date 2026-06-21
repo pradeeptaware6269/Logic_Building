@@ -1,0 +1,39 @@
+package Day4Task;
+
+import java.util.Scanner;
+
+public class Task3_Move_Negative {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the How many Element do you have :");
+		int n = sc.nextInt();
+		int arr[] = new int[n];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+
+		System.out.println("Here we can try to move negative element at the end :");
+		int left = 0;
+		int right = n - 1;
+		while (arr[left] < arr[right]) {
+			if (arr[left] > 0) {
+				left++;
+			} else if (arr[right] < 0) {
+				right--;
+
+			} else {
+				int temp = arr[left];
+				arr[left] = arr[right];
+				arr[right] = temp;
+			}
+		}
+
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+}
+//input [ 1,2,3,-1,4]
+
+// output [1,2,3,4,-1]

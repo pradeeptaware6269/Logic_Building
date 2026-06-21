@@ -1,0 +1,44 @@
+package Day3Task;
+
+
+import java.util.Scanner;
+
+public class Task4 {
+	// input arr[]={1,0,2,3,4,5,6,0}
+	
+	// output =1,2,3,4,5,6,0,0
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the total number od array Element :");
+		int n = sc.nextInt();
+		int arr[] = new int[n];
+
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+
+		System.out.println("The array is created successfully ...");
+		int count = 0;
+		int arr1[] = new int[arr.length];
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != 0) {
+				arr1[count] = arr[i];
+				count++;
+			}
+		}
+
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] == 0) {
+				arr1[count] = 0;
+				count++;
+			}
+		}
+
+		for (int i = 0; i < arr1.length; i++) {
+			System.out.println(arr1[i]);
+		}
+
+	}
+
+}

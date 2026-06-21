@@ -1,0 +1,17 @@
+package Day4Task;
+
+import java.util.Scanner;
+
+public class Task1_Remove_Dup {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the No of Element :");
+		int n = sc.nextInt();
+
+		int arr[] = new int[n];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = sc.nextInt();
+
+		}
+	}
+}

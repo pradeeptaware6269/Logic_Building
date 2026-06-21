@@ -1,0 +1,18 @@
+package Day3Task;
+
+
+public class Task3 {
+// so lets find the missing number  for the array
+	public static void main(String[] args) {
+		int arr[] = { 1, 2, 3, 5, 6 };
+		int n = 6;
+		int grant = n * (n + 1) / 2;
+		int sum = 0;
+		for (int i : arr) {
+			sum = sum + i;
+		}
+
+		int missing_no = grant - sum;
+		System.out.println("Here Missing Number is :" + missing_no);
+	}
+}
