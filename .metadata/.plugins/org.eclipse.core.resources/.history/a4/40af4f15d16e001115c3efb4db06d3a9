@@ -1,0 +1,6 @@
+package Day6Task;
+
+//Compress a string (aaabbcc → a3b2c2) 
+public class Task8 {
+
+}

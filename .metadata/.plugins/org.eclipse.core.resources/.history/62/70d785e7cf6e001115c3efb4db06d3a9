@@ -1,0 +1,13 @@
+package Day6Task;
+
+import java.util.Scanner;
+
+//8. Find first non-repeated character 
+public class Task7_Find_First_Reapeat_character {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String Here :");
+		String atr = sc.next();
+	}
+
+}

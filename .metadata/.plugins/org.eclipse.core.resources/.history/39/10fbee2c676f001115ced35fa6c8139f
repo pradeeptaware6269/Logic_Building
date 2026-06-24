@@ -1,0 +1,18 @@
+package Day7;
+
+/*Count frequency of each character 
+
+
+10.	Compress a string (aaabbcc → a3b2c2) 
+______________
+🔹 Level 3: StringBuilder
+11.	Reverse string using StringBuilder 
+12.	Toggle case (Upper ↔️ Lower) 
+13.	Insert character at a specific position 
+14.	Delete character at a specific position */
+public class Task1 {
+//9.	Check anagram strings 
+	public static void main(String[] args) {
+
+	}
+}

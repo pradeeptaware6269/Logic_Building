@@ -1,0 +1,36 @@
+package Day6Task;
+
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+//  Compress a string ( aaabbcc → a3b2c2) 
+public class Task8 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the Sting :");
+		String str = sc.next();
+		LinkedHashSet<Character> h1 = new LinkedHashSet<Character>();
+		int count = 1;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if (h1.contains(ch)) {
+				if (str.charAt(i - 1) == str.charAt(i)) {
+					count++;
+				}
+			}
+			h1.add(ch);
+			h1.add((char) count);
+		}
+		System.out.println("Here are simply Removing the Diplicate Element from the String :");
+
+		Iterator itr = h1.iterator();
+		while (itr.hasNext()) {
+			System.out.print(itr.next());
+		}
+
+	}
+
+}

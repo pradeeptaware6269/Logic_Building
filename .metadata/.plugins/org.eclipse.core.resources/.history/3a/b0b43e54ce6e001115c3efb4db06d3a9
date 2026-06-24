@@ -1,0 +1,22 @@
+package Day6Task;
+
+//Remove duplicate character
+//input :pradeep
+//Output :pradep
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class Task6_Remove_Duplicate {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the Sting :");
+		String str = sc.next();
+
+		HashSet<Character> h1 = new HashSet<Character>();
+		
+		for(int i=0;i<str.length())
+
+	}
+
+}

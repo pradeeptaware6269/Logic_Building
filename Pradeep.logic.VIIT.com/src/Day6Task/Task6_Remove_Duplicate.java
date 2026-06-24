@@ -1,0 +1,32 @@
+package Day6Task;
+
+//  Remove duplicate character
+//  input :pradeep
+//  Output :prade
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+public class Task6_Remove_Duplicate {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the Sting :");
+		String str = sc.next();
+		LinkedHashSet<Character> h1 = new LinkedHashSet<Character>();
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			h1.add(ch);
+		}
+		System.out.println("Here are simply Removing the Diplicate Element from the String :");
+
+		Iterator itr = h1.iterator();
+		while (itr.hasNext()) {
+			System.out.print(itr.next());
+		}
+
+	}
+
+}
