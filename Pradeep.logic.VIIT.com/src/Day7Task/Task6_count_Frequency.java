@@ -1,4 +1,4 @@
-package Day7;
+package Day7Task;
 
 import java.util.HashSet;
 import java.util.Scanner;

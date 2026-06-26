@@ -1,4 +1,4 @@
-package Day7;
+package Day7Task;
 
 import java.util.Arrays;
 import java.util.Scanner;
