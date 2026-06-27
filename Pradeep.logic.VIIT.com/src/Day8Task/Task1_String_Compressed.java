@@ -2,7 +2,7 @@ package Day8Task;
 
 public class Task1_String_Compressed {
 	public static void main(String[] args) {
-		String str = "aaabbcc";
+		String str = "aaabbccaaa";
 		String result = " ";
 		int count = 1;
 		for (int i = 1; i < str.length(); i++) {
