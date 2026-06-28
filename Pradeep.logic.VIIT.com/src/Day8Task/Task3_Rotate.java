@@ -1,5 +1,7 @@
 package Day8Task;
 
+import java.util.Scanner;
+
 /*
  Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
@@ -82,11 +84,13 @@ public class Task3_Rotate {
 
 		Task3_Rotate list = new Task3_Rotate();
 
-		list.insertEle(1);
-		list.insertEle(2);
-		list.insertEle(3);
-		list.insertEle(4);
-		list.insertEle(5);
+		System.out.println("Enter how many element do you want to Insert :");
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+			list.insertEle(sc.nextInt());
+		}
 
 		System.out.println("Before Rotation:");
 		list.display();

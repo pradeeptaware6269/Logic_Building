@@ -9,9 +9,12 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="LinkedList.LL"/>
     <fullyQualifiedTypeName name="LinkedList.LL.Node"/>
     <fullyQualifiedTypeName name="LinkedList.LL_Practice"/>
     <fullyQualifiedTypeName name="LinkedList.LL_Practice.Node"/>
+    <fullyQualifiedTypeName name="Day8Task.Task2_cyclic_Rotate"/>
+    <fullyQualifiedTypeName name="Day8Task.Task2_cyclic_Rotate.Node"/>
+    <fullyQualifiedTypeName name="Day8Task.Task3_Rotate"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
