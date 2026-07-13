@@ -1,5 +1,7 @@
 package Day20Task;
 
+import java.util.Arrays;
+
 public class Common_Element_3_Array {
 	
 	public void commonEle(int arr1[],int arr2[],int arr3[]) {
@@ -26,7 +28,7 @@ public class Common_Element_3_Array {
 	{
 		for(int i=0;i<arr.length;i++)
 		{
-			for(int j=0;j<arr.length;j++)
+			for(int j=i+1;j<arr.length;j++)
 			{
 				if(arr[i]<arr[j])
 				{
@@ -51,11 +53,14 @@ public class Common_Element_3_Array {
 		int arr2[]= {11,22,33,44,45,5};
 		int arr3[]= {23,45,2,23,5,89};
 		
-		c.sort(arr1);
+		//c.sort(arr1);  instead of this 
+		Arrays.sort(arr1);  // we can also this one 
 		System.out.println();
-		c.sort(arr2);
+		//c.sort(arr2);
+		Arrays.sort(arr1);
 		System.out.println();
-		c.sort(arr3);
+		//c.sort(arr3);
+		Arrays.sort(arr1);
 		System.out.println();
 		c.commonEle(arr1, arr2, arr3);
 	}
