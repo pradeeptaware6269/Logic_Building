@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="LinkedList.LL"/>
     <fullyQualifiedTypeName name="LinkedList.LL.Node"/>
     <fullyQualifiedTypeName name="LinkedList.LL_Practice"/>
@@ -21,5 +20,12 @@
     <fullyQualifiedTypeName name="Day21Task.Moving_Zeros"/>
     <fullyQualifiedTypeName name="Day21Task.RemoveDuplicate"/>
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="Day22Task.TwoSum"/>
+    <fullyQualifiedTypeName name="java.lang.MatchException"/>
+    <fullyQualifiedTypeName name="Day22Task.MajorityElement"/>
+    <fullyQualifiedTypeName name="Day22Task.MissingNumber"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Day22Task.NumberDisapperd"/>
 </qualifiedTypeNameHistroy>
