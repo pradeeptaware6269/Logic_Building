@@ -332,6 +332,83 @@ public class Task1 {
 	}
 	}
 	
+	public void print16(int n)
+	{
+		char ch='E';
+	for(int i=0;i<n;i++)
+	{
+		
+		for(char j=(char) ('E'- i);j<='E';j++)
+		{
+			System.out.print(j);	
+		}
+		System.out.println();
+	}
+	}
+	
+	
+	public void print17(int n)
+	{
+		int i=0;
+		int j=0;
+		int space=0;
+		for(i=0;i<n;i++)
+		{
+			
+			// for the stars
+			for(int k=1;k<=n-i;k++)
+			{
+				System.out.print("*");
+				
+			}
+			
+			// for the spaces
+			for(j=0;j<=space;j++)
+			{
+				System.out.print(" ");
+			}
+			
+			// for the stars
+			for(int k=1;k<=n-i;k++)
+			{
+				System.out.print("*");
+				
+			}
+			space=space+2;
+			
+			System.out.println();
+		}
+		
+		int spa=(n-1)*2;
+		
+		for(i=0;i<n;i++)
+		{
+			
+			// for the stars
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("*");
+				
+			}
+			
+			// for the spaces
+			for(j=0;j<=spa;j++)
+			{
+				System.out.print(" ");
+			}
+			
+			// for the stars
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("*");
+				
+			}
+			spa=spa-2;
+			
+			System.out.println();
+		}
+	}
+
 	public static void main(String[] args) {
 		Task1 t=new Task1();
 //		t.print(4);
@@ -351,12 +428,10 @@ public class Task1 {
 //		t.print7(5);
 //		System.out.println("----------------------");
 //		t.print8(5);
-		
 //		System.out.println("----------------------");
 //		t.print9(5);
 //		System.out.println("----------------------");
 //		t.print10(5);
-		
 //		System.out.println("----------------------");
 // 		t.print11(5);
 // 		System.out.println("----------------------");
@@ -368,9 +443,12 @@ public class Task1 {
 //		System.out.println("----------------------");
 // 		t.print14(5);
 		
-		System.out.println("----------------------");
- 		t.print15(5);
+//		System.out.println("----------------------");
+// 		t.print16(5);
 		
+ 		
+ 		System.out.println("----------------------");
+ 		t.print17(5);
 		
 	}
 
