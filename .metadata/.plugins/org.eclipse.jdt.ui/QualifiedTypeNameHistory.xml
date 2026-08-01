@@ -24,7 +24,6 @@
     <fullyQualifiedTypeName name="Day22Task.MajorityElement"/>
     <fullyQualifiedTypeName name="Day22Task.MissingNumber"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Day22Task.NumberDisapperd"/>
     <fullyQualifiedTypeName name="Day25Task.Task1"/>
     <fullyQualifiedTypeName name="Striver3.Task3"/>
@@ -36,4 +35,7 @@
     <fullyQualifiedTypeName name="Striver3.MergeSort"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.classfile.attribute.CharacterRangeTableAttribute"/>
+    <fullyQualifiedTypeName name="Day32.Task2"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
