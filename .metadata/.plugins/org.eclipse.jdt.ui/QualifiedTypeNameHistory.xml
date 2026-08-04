@@ -50,4 +50,6 @@
     <fullyQualifiedTypeName name="java.lang.classfile.instruction.ReturnInstruction"/>
     <fullyQualifiedTypeName name="Day33.Task6"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Day35.Task1"/>
+    <fullyQualifiedTypeName name="Day35.Task2"/>
 </qualifiedTypeNameHistroy>
