@@ -1,8 +1,10 @@
 package Day38;
 
+import java.util.Arrays;
+
 public class Task1 {
 	// Better solution for soring the 0's 1's and 2's
-	public void sortColors(int[] nums) {
+	public void sortColors1(int[] nums) {
 
 		int cnt0 = 0;
 		int cnt1 = 0;
@@ -32,14 +34,43 @@ public class Task1 {
 		}
 	}
 
+	// optimal
+
+	public int[] sortColors(int[] nums) {
+
+		int low = 0;
+		int mid = 0;
+		int high = nums.length - 1;
+
+		while (mid <= high) {
+			if (nums[mid] == 0) {
+				int temp = nums[low];
+				nums[low] = nums[mid];
+				nums[mid] = temp;
+				low++;
+				mid++;
+
+			} else if (nums[mid] == 1) {
+				mid++;
+			} else {
+				int temp = nums[mid];
+				nums[mid] = nums[high];
+				nums[high] = temp;
+				high--;
+			}
+		}
+		return nums;
+
+	}
+
 	public static void main(String[] args) {
 
 		int arr[] = { 2, 0, 2, 1, 1, 0 };
 		Task1 t = new Task1();
-		t.sortColors(arr);
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + ",  ");
-		}
+		System.out.println(Arrays.toString(t.sortColors(arr)));
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.print(arr[i] + ",  ");
+//		}
 
 	}
 
