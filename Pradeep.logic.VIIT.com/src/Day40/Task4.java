@@ -1,6 +1,8 @@
 package Day40;
 
 public class Task4 {
+
+	// brute force solution
 	public int consecutive(int nums[]) {
 		int n = nums.length;
 		int maxcount = 0;
