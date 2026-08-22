@@ -31,9 +31,8 @@ public class Task7 {
 						temp.add(nums[j]);
 						temp.add(nums[k]);
 						temp.add(fourth);
-
 						temp.sort(null);
-
+						
 						set.add(temp);
 					}
 
