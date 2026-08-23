@@ -13,6 +13,10 @@ public class Task7 {
 
 		Set<List<Integer>> set = new HashSet<>();
 
+		if (target < 0) {
+			return new ArrayList<>(set);
+		}
+
 		for (int i = 0; i < n; i++) {
 
 			for (int j = i + 1; j < n; j++) {
@@ -32,7 +36,7 @@ public class Task7 {
 						temp.add(nums[k]);
 						temp.add(fourth);
 						temp.sort(null);
-						
+
 						set.add(temp);
 					}
 
